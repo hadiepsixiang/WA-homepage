@@ -1,0 +1,112 @@
+@font-face {
+    font-family:font_segoeUI;
+    src:url('../fonts/SEGOEUI.TTF') format('truetype'),
+}
+header {
+    width: 1280px;
+    height: 79px;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 1px solid #b1b0b0;
+}
+header .logo {
+    height: 61.72px;
+    width: 50px;
+}
+.header_text{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    display: flex;
+    margin-left: 54px;
+}
+.header_text p{
+    padding: 0px 16px;
+}
+.header_home {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.button-01 {
+    width: 140px;
+    height: 45px;
+    margin: 10px 0 0 325px;
+    background: #2F9C95;
+    border-radius: 6px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.button-02 {
+    width: 140px;
+    height: 45px;
+    margin: 10px 0 0 12px;
+    border-radius: 6px;
+    border: 2px solid #2F9C95;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #161515;
+    background: #ffffff;
+}
+.banner {
+    margin:24px 0 0 36px;
+}
+.header_banner{
+    margin: 24px auto;
+    width: 1280px;
+    height: 424px;
+    background: url("./images/banner.png") no-repeat bottom right; 
+    text-align: right;
+    align-items: center;
+
+}
+.header_banner span {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #161515;
+    margin: 152px 0 0 700px;
+}
+.header_banner .search {
+    width: 292px;
+    height: 45px;
+    border: 1px solid #2F9C95;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+}
+.header_banner .search input {
+    font-family: 'Quicksand', sans-serif;
+    width: 180px;
+    margin-left: 5px;
+    border: none;
+}
+.header_banner .search input:focus {
+    outline: none;
+  }
+.header_banner .search img {
+    padding: 0px 13px;
+}
+.banner_search {
+    display: flex;
+    margin:88px 0 0 828px;
+}
+.button-03 {
+    width: 140px;
+    height: 45px;
+    margin: 0px 0 0 12px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background: #330F0A;
+    border: none;
+}
