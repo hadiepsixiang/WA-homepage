@@ -162,13 +162,9 @@ h3{
     font-size: 14px;
     line-height: 19px;
 }
-.job_cates {
-    margin: 0 auto;
-    align-items: center;
-}
 .job_cates .cates01 {
-    align-items: center;
-    margin: 0 auto;
+    width:1280px;
+    margin:0 auto;
 }
 .job_cates button{
     background: #D24121;
@@ -183,14 +179,15 @@ h3{
     cursor:pointer;
 }
 .job_cates .btn01 {
-    margin-left: 75px;
+    margin-left: 35px;
     cursor:pointer;
 }
 .job_cates .btn02 {
-    margin-left: 237px;
+    margin-left: 151px;
     cursor:pointer;
 }
-.hotjobs {
+.hotjobs .job_slide {
+    width:1280px;
     margin: 0 auto;
 }
 .hotjobs .job_01 {
@@ -249,6 +246,12 @@ h3{
 .job_slide {
     display: flex;
 }
+.morejobs .job_border{
+    width:1280px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 36px;
+}
 .job_02 {
     margin-right:32px;
 }
@@ -277,18 +280,24 @@ h3{
     margin :10px 15px 0 25px;
 }
 .job_border .job_02 {
-    width: 619px;
-    height: 254px;
+    width: 605px;
+    height: 245px;
     border-radius: 8px;
     align-items: center;
     border: 3px solid #2F9C95;
     border-radius: 8px;
 }
-.job_02 .job_title h4 {
-    margin :5px 80px 0 0;
+.job_border .job_02 .job_title02 {
+    display: flex;
+}
+.job_border .job_02 .job_title02 h4 {
+    margin :15px 225px 0 25px;
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 600;
     color:#330F0A;
+}
+.job_border .job_02 .job_title02 img {
+    margin-top:12px;
 }
