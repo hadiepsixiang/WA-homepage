@@ -2,6 +2,9 @@
     font-family:font_segoeUI;
     src:url('../fonts/SEGOEUI.TTF') format('truetype'),
 }
+.body_job {
+    margin: 0 auto;
+}
 header {
     width: 1280px;
     height: 79px;
@@ -20,6 +23,7 @@ header .logo {
     line-height: 25px;
     display: flex;
     margin-left: 54px;
+    cursor:pointer;
 }
 .header_text p{
     padding: 0px 16px;
@@ -40,6 +44,7 @@ header .logo {
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
+    cursor:pointer;
 }
 .button-02 {
     width: 140px;
@@ -52,6 +57,7 @@ header .logo {
     line-height: 25px;
     color: #161515;
     background: #ffffff;
+    cursor:pointer;
 }
 .banner {
     margin:24px 0 0 36px;
@@ -71,7 +77,8 @@ header .logo {
     font-size: 30px;
     line-height: 45px;
     color: #161515;
-    margin: 152px 0 0 700px;
+    margin: 70px 0 0 700px;
+    display: inline-block;
 }
 .header_banner .search {
     width: 292px;
@@ -96,7 +103,7 @@ header .logo {
 }
 .banner_search {
     display: flex;
-    margin:88px 0 0 828px;
+    margin:68px 0 0 828px;
 }
 .button-03 {
     width: 140px;
@@ -109,4 +116,179 @@ header .logo {
     color: #ffffff;
     background: #330F0A;
     border: none;
+    cursor:pointer;
+}
+h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #161515;
+    text-align: center;
+    margin-top:64px;
+}
+.diff_form .services {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 73px;
+    width:1280px;
+    margin:0 auto;
+}
+.diff_form .services > div {
+    width: 311px;
+    display: flex;
+    align-items: center;
+    margin-left:48px;
+    margin-right:0;
+}
+.diff_form .services img {
+    width:70px;
+    height: 70px;
+    margin-right: 8px;
+}
+.diff_form .services .info h5 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 12px;
+    margin-top:0px;
+}
+.diff_form .services .info p {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    font-size: 14px;
+    line-height: 19px;
+}
+.job_cates {
+    margin: 0 auto;
+    align-items: center;
+}
+.job_cates .cates01 {
+    align-items: center;
+    margin: 0 auto;
+}
+.job_cates button{
+    background: #D24121;
+    border: 1px solid #D24121;
+    border-radius: 8px;
+    height:50px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color:#FFFFFF;
+    margin:0 10px 16px 10px;
+    cursor:pointer;
+}
+.job_cates .btn01 {
+    margin-left: 75px;
+    cursor:pointer;
+}
+.job_cates .btn02 {
+    margin-left: 237px;
+    cursor:pointer;
+}
+.hotjobs {
+    margin: 0 auto;
+}
+.hotjobs .job_01 {
+    width: 472px;
+    height: 208px;
+    border-radius: 8px;
+    align-items: center;
+    background: #71CEC8;
+}
+.job_title {
+    display: flex;
+    margin: 0 0 0 25px;
+}
+.job_title h4 {
+    margin :5px 90px 0 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color:#330F0A;
+}
+.job_01 {
+    margin-right:32px;
+}
+.job_01 h5 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#161515;
+    margin :12px 15px 0 25px;
+}
+.job_com {
+    display: flex;
+    margin: 0 0 0 25px;
+}
+.job_com img {
+    margin: 12px 15px 0 0;
+}
+.job_01 .job_com h6{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#616161;
+    margin :10px 15px 0 0;
+}
+.job_01 h6{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    color:#161515;
+    margin :10px 15px 0 25px;
+}
+.job_slide {
+    display: flex;
+}
+.job_02 {
+    margin-right:32px;
+}
+.job_02 h5 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#161515;
+    margin :12px 25px 0 25px;
+}
+.job_02 .job_com h6{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#616161;
+    margin :10px 15px 0 0;
+}
+.job_02 h6{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    color:#161515;
+    margin :10px 15px 0 25px;
+}
+.job_border .job_02 {
+    width: 619px;
+    height: 254px;
+    border-radius: 8px;
+    align-items: center;
+    border: 3px solid #2F9C95;
+    border-radius: 8px;
+}
+.job_02 .job_title h4 {
+    margin :5px 80px 0 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color:#330F0A;
 }
