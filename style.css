@@ -203,7 +203,7 @@ h3{
 }
 .job_title h4 {
     margin :5px 90px 0 0;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'SEGOEUI', sans-serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: 600;
@@ -247,7 +247,7 @@ h3{
     display: flex;
 }
 .morejobs .job_border{
-    width:1280px;
+    width:1248px;
     margin: 0 auto;
     display: flex;
     margin-bottom: 36px;
@@ -300,4 +300,224 @@ h3{
 }
 .job_border .job_02 .job_title02 img {
     margin-top:12px;
+}
+.job_03 h5 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#161515;
+    margin :12px 25px 0 25px;
+}
+.job_03 .job_com h6{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#616161;
+    margin :10px 15px 0 0;
+}
+.job_03 h6{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    color:#161515;
+    margin :10px 15px 0 25px;
+}
+.job_border .job_03 {
+    width: 605px;
+    height: 245px;
+    border-radius: 8px;
+    align-items: center;
+    border: 3px solid #2F9C95;
+    border-radius: 8px;
+}
+.job_border .job_03 .job_title02 {
+    display: flex;
+}
+.job_border .job_03 .job_title02 h4 {
+    margin :15px 225px 0 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color:#330F0A;
+}
+.job_border .job_03 .job_title02 img {
+    margin-top:12px;
+}
+.about_form {
+    width: 1280px;
+    height: 400px;
+    background: #2F9C95;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+.about_form h3 {
+    margin-top: 64px;
+    color:#FFFFFF;
+    padding-top: 16px;
+}
+.about_form  h6 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    color:#FFFFFF;
+    margin-left:227px;
+    width: 825px;
+    margin-top:16px;
+}
+.about_form .list_num {
+    display: flex;
+    width:995px;
+    margin-left:150px;
+    text-align: center;
+
+}
+.about_form .num {
+    width: 270px;
+    margin-right: 100px;
+}
+.about_form .num h2{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 48px;
+    line-height: 99.84px;
+    font-weight: 500;
+    color:#330F0A;
+    margin-top:0;
+}
+.about_form .num span{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color:#FFFFFF;
+}
+.about_form .num02 {
+    width: 240px;
+    margin-right: 0px;
+}
+.about_form .num02 h2{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 48px;
+    line-height: 99.84px;
+    font-weight: 500;
+    color:#330F0A;
+    margin-top:0;
+
+}
+.about_form .num02 span{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color:#FFFFFF;
+}
+footer {
+    width: 1440px;
+    height: 370px;
+    background: #D8E7E6;
+    margin: 64px auto;
+    display: flex;
+}
+footer .info img {
+    width: 111px;
+    margin:24px 80px 0px 80px ;
+    height: 136.65px;
+}
+footer .info p {
+    width: 205px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    line-height: 21.36px;
+    font-weight: 500;
+    color:#161515;
+    margin:24px 78px;
+}
+
+footer .i4_cates h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #161515;
+    margin: 32px 100px 0 0;
+}
+footer .i4_cates .cates_sth {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+footer .i4_cates .cates_sth h6 {
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #161515;
+    margin:24px 80px 0 25px;
+}
+footer .i4_mess h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #161515;
+    margin-top: 32px;
+    margin-bottom: 0;
+    text-align: left;
+}
+footer .i4_mess .mess_sth {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+footer .i4_mess .mess_sth h6 {
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #161515;
+    margin:24px auto;
+    width: 446px;
+}
+footer .mess_sth1 .search {
+    width: 270px;
+    height: 45px;
+    border: 1px solid #2F9C95;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+}
+footer .mess_sth1 .search input {
+    font-family: 'Quicksand', sans-serif;
+    width: 150px;
+    margin-left: 5px;
+    border: none;
+}
+footer .mess_sth1 .search input:focus {
+    outline: none;
+}
+.mess_sth1 {
+    display: flex;
+    margin:28px 0 0 0;
+}
+footer .i4_follows .cates_sth {
+    margin: 32px 0 0 32px;
+}
+footer .i4_follows h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #161515;
+    margin: 32px 0 0 32px;
+    text-align: left;
 }
