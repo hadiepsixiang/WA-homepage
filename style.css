@@ -521,3 +521,49 @@ footer .i4_follows h3 {
     margin: 32px 0 0 32px;
     text-align: left;
 }
+.hotjobs {
+    background: white;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 1280px;
+  }
+  
+  .hotjobs::before,
+  .hotjobs::after {
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+  }
+  
+  .hotjobs::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+  }
+  
+  .hotjobs::before {
+    left: 0;
+    top: 0;
+  }
+  
+  .hotjobs .job_slide {
+    animation: scroll 30s linear infinite;
+    display: flex;
+    width: calc(250px * 18);
+  }
+  
+  .hotjobs .job_slide:hover {
+    animation-play-state: paused;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 9));
+    }
+  }
