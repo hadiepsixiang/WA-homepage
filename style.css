@@ -2,9 +2,6 @@
     font-family:font_segoeUI;
     src:url('../fonts/SEGOEUI.TTF') format('truetype'),
 }
-.body_job {
-    margin: 0 auto;
-}
 header {
     width: 1280px;
     height: 79px;
